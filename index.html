@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Rock&#x270A Paper&#9995 Scissors&#9996 </h1>
+    </header>
+
+    <div class="score_board">
+        <div id="user_label" class="badge">user</div>
+        <div id="computer_label" class="badge">comp</div>
+        <span id="user_score"></span>  <span id="computer_score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Let's play!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="/img/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="p">
+            <img src="/img/papers.png" alt="paper" width="420px">
+        </div>
+        <div class="choice" id="s">
+            <img src="/img/scissors.png" alt="scissors">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
